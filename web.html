@@ -602,6 +602,11 @@
     </div>
     <!-- ===== Style Switcher End ===== -->
     <!-- ===== JS Files ===== -->
+  <script>
+        if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+          window.location.replace("./index.html");
+  }
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
       referrerpolicy="no-referrer"
